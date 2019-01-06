@@ -1,24 +1,3 @@
-body {
-  background-color: #DAEDDD; /*light gray*/
-  border 0;
-  margin: 0px;
-  padding: 0px;
-  text-decoration: none;
-  display: inline;
-  overflow: auto;
-}
-
-.navbar {
-  display:flex;
-  background-color: #083D77; /*dark blue*/
-  justify-content: space-between;
-}
-
-.navbar div {
-  color: white;
-  margin: 20px;
-}
-
 .homecontents {
   display: flex;
   flex-direction: column;
