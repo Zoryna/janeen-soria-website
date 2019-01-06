@@ -19,29 +19,7 @@ body {
   margin: 20px;
 }
 
-.homecontents {
-  display: flex;
-  flex-direction: column;
-  margin-left: 200px;
-  margin-right: 200px;
-
-}
-
 .pictures img { /*fix how the image stretches*/
   height: 450px;
   width: 100%;
-}
-
-.welcome {
-  display: block;
-  margin-top: 20px;
-  padding: 20px;
-  background-color: white;
-
-}
-
-.welcome h1 {
-  color: #ED3642; /*dark pink */
-  text-transform: uppercase;
-  font-size: 20px;
 }

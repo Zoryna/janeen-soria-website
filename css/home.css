@@ -1,0 +1,43 @@
+body {
+  background-color: #DAEDDD; /*light gray*/
+  border 0;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  display: inline;
+  overflow: auto;
+}
+
+.navbar {
+  display:flex;
+  background-color: #083D77; /*dark blue*/
+  justify-content: space-between;
+}
+
+.navbar div {
+  color: white;
+  margin: 20px;
+}
+
+.homecontents {
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px; /*margins of the image and text*/
+  margin-right: 300px;
+
+}
+
+.welcome {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: white;
+
+}
+
+.welcome h1 {
+  color: #ED3642; /*dark pink */
+  text-transform: uppercase;
+  font-size: 20px;
+}
