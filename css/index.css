@@ -8,14 +8,13 @@ body {
   overflow: auto;
 }
 
-.navbar {
+.navbar { /*make current tab highlighed later*/
   display:flex;
   background-color: #083D77; /*dark blue*/
   justify-content: space-between;
 }
 
 .navbar div {
-  color: white;
   margin: 20px;
 }
 
@@ -24,6 +23,7 @@ body {
   width: 100%;
 }
 
+/*might change text colors later*/
 .pictures h1 {
   color: black;
   text-transform: uppercase;
