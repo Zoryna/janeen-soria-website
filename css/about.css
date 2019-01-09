@@ -14,8 +14,13 @@
 }
 
 .profile img {
-
-
-
-  
+  height: 215px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  float:left;
+  /*make image round*/
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
 }
