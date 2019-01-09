@@ -1,0 +1,32 @@
+.portfoliocontents {
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px; /*margins of the image and text*/
+  margin-right: 300px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.GitHub {
+  background-color: #241623; /*black*/
+  padding: 20px;
+
+}
+
+.Campfire {
+  background-color: #1B1F3B; /*dark blue*/
+  padding: 20px;
+
+}
+
+.GirlsWhoCode {
+  background-color: #ED3642; /*dark pink*/
+  padding: 20px;
+
+}
+
+.DontPanic {
+  background-color: #3C787E; /*light gray/blue*/
+  padding: 20px;
+
+}

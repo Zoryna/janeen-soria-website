@@ -21,6 +21,7 @@ body {
 .pictures img {
   height: 450px;
   width: 100%;
+  opacity: 0.9;
 }
 
 /*might change text colors later*/
