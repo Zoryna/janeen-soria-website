@@ -7,26 +7,40 @@
   color: white;
 }
 
-.GitHub {
-  background-color: #241623; /*black*/
-  padding: 20px;
+.github {
+  background-color: #241623; /*very dark purple*/
+  padding: 0px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 10px;
 
 }
 
-.Campfire {
-  background-color: #1B1F3B; /*dark blue*/
+.campfire {
+  background-color: #E2711D; /*orange*/
   padding: 20px;
+  text-align: center;
+  flex-flow: row wrap;
 
 }
 
-.GirlsWhoCode {
+.campfirepicture img {
+  height: 450px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.girlswhocode {
+  background-color: #3C787E; /*gray/blue*/
+  padding: 20px;
+  text-align: center;
+
+}
+
+.dontpanic {
   background-color: #ED3642; /*dark pink*/
   padding: 20px;
-
-}
-
-.DontPanic {
-  background-color: #3C787E; /*light gray/blue*/
-  padding: 20px;
+  margin-bottom: 10px;
+  text-align: center;
 
 }
