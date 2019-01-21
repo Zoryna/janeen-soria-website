@@ -1,6 +1,6 @@
 # Janeen Soria Website
 
-Personal website. Currently developing.
+Personal website. In progress.
 
 ## Purpose
 
