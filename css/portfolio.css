@@ -16,26 +16,47 @@
 
 }
 
+.campfirecontent {
+  display:flex;
+  flex-direction: row;
+  margin-left: 300px; /*margins of the image and text*/
+  margin-right: 300px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: white;
+}
+
 .campfire {
   background-color: #E2711D; /*orange*/
   padding: 20px;
   text-align: center;
-  flex-flow: row wrap;
-
 }
 
 .campfirepicture img {
-  height: 450px;
-  width: 50%;
-  margin-bottom: 10px;
+  width: 100%;
+}
+
+.girlswhocodecontent {
+  display:flex;
+  flex-direction: column;
+  margin-left: 300px; /*margins of the image and text*/
+  margin-right: 300px;
+  text-transform: uppercase;
+  color: white;
 }
 
 .girlswhocode {
   background-color: #3C787E; /*gray/blue*/
-  padding: 20px;
   text-align: center;
-
+  
+  padding; 10px;
 }
+
+.girlswhocodepicture img {
+  width: 40%;
+}
+
+
 
 .dontpanic {
   background-color: #ED3642; /*dark pink*/
