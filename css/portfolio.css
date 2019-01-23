@@ -41,27 +41,55 @@
   flex-direction: column;
   margin-left: 300px; /*margins of the image and text*/
   margin-right: 300px;
-  text-transform: uppercase;
   color: white;
 }
 
 .girlswhocode {
   background-color: #3C787E; /*gray/blue*/
   text-align: center;
-  
-  padding; 10px;
+  text-transform: uppercase;
+  padding: 10px;
 }
 
 .girlswhocodepicture img {
   width: 40%;
+  margin-bottom: 10px;
 }
 
+.volunteerexplanation {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
 
+.dontpaniccontent {
+  display:flex;
+  flex-direction: column;
+  margin-left: 300px; /*margins of the image and text*/
+  margin-right: 300px;
+  color: white;
+}
+
+.clubexplanation {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
 
 .dontpanic {
   background-color: #ED3642; /*dark pink*/
   padding: 20px;
-  margin-bottom: 10px;
   text-align: center;
+  text-transform: uppercase;
+}
 
+.dontpanicpicture img {
+  width: 40%;
+  margin-bottom: 10px;
 }
