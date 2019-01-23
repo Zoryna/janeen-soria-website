@@ -7,19 +7,37 @@
   color: white;
 }
 
-.github {
-  background-color: #241623; /*very dark purple*/
-  padding: 0px;
-  margin-top: 20px;
-  text-align: center;
-  margin-bottom: 10px;
-
+.sticky + .portfoliocontents { /*trying to make sticky header*/
+  padding-top: 102px;
 }
 
+.pageintro {
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+/*section title that's linked*/
+.github {
+  display: flex;
+  flex-direction: column;
+  background-color: #241623; /*very dark purple*/
+  padding: 0px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*includes section title and picture*/
 .campfirecontent {
   display:flex;
   flex-direction: row;
-  margin-left: 300px; /*margins of the image and text*/
+  margin-left: 300px;
   margin-right: 300px;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -32,64 +50,80 @@
   text-align: center;
 }
 
+.campfire h2 {
+  text-transform: lowercase;
+}
+
 .campfirepicture img {
   width: 100%;
 }
 
-.girlswhocodecontent {
-  display:flex;
-  flex-direction: column;
-  margin-left: 300px; /*margins of the image and text*/
-  margin-right: 300px;
-  color: white;
-}
-
+/*just the section title*/
 .girlswhocode {
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+  margin-right: 300px;
+
   background-color: #3C787E; /*gray/blue*/
   text-align: center;
   text-transform: uppercase;
   padding: 10px;
 }
 
+/*the picture and summary*/
+.girlswhocodecontent {
+  display:flex;
+  flex-direction: row;
+  color: white;
+}
+
 .girlswhocodepicture img {
-  width: 40%;
+  width: 58%;
+  margin-left: 300px;
   margin-bottom: 10px;
 }
 
 .volunteerexplanation {
   display: block;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  padding: 20px;
-  background-color: white;
-  color: black;
-}
-
-.dontpaniccontent {
-  display:flex;
-  flex-direction: column;
-  margin-left: 300px; /*margins of the image and text*/
   margin-right: 300px;
-  color: white;
-}
-
-.clubexplanation {
-  display: block;
-  margin-top: 20px;
   margin-bottom: 10px;
   padding: 20px;
   background-color: white;
   color: black;
 }
 
+/*just section title*/
 .dontpanic {
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+  margin-right: 300px;
+
   background-color: #ED3642; /*dark pink*/
   padding: 20px;
   text-align: center;
   text-transform: uppercase;
 }
 
+/*the summary and picture*/
+.dontpaniccontent {
+  display:flex;
+  flex-direction: row-reverse; /*summary then picture*/
+  color: white;
+}
+
+.clubexplanation {
+  display: block;
+  margin-left: 300px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+
 .dontpanicpicture img {
-  width: 40%;
+  width: 60%;
+  margin-right: 300px;
   margin-bottom: 10px;
 }

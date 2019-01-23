@@ -5,6 +5,10 @@
   margin-right: 300px;
 }
 
+.sticky + .homecontents { /*trying to make sticky header*/
+  padding-top: 102px;
+}
+
 .welcome {
   display: block;
   margin-top: 20px;

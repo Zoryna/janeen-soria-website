@@ -1,12 +1,13 @@
-window.onscroll = function() {stickybar()}; //activates when user scrolls
+window.onscroll = function()
+{stickyBar()}; //activates when user scrolls
 
-var navbar = document.getElementById("navbar"); //gets the navbar
+var navbar = document.getElementById("navigation"); //gets the navbar
 var sticky = navbar.offsetTop; //gets the position of the navbar
 
-function stickybar() {
-  if (window.pageYOffset >= sticky)
+function stickyBar() {
+  if (window.pageYOffset > sticky)
   {
-    navbar.classList.add("sticky") //when user has scrolled down, adds sticky
+    navbar.classList.add("sticky"); //when user has scrolled down, adds sticky
   }
   else
   {

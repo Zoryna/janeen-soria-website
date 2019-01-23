@@ -12,10 +12,17 @@ body {
   display:flex;
   background-color: #083D77; /*dark blue*/
   justify-content: space-between;
+  position: sticky;
 }
 
 .navbar div {
   margin: 20px;
+}
+
+.sticky { /*trying to make sticky header*/
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .pictures img {
