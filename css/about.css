@@ -28,3 +28,8 @@
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
 }
+
+.profile h1 {
+  color: #ED3642; /*dark pink*/
+  font-size: 25px;
+}

@@ -15,8 +15,11 @@
 
 .contactcontents h1 {
   text-transform: uppercase;
-  /*decide text size*/
-  
+  font-size: 25px;
+}
+
+.contactcontents p {
+  font-size: 20px;
 }
 
 #top {

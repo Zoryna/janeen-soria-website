@@ -13,11 +13,12 @@
 
 .pageintro {
   background-color: white;
-  color: black;
+  color: #ED3642; /*dark pink*/
   margin-top: 20px;
   margin-bottom: 10px;
   padding-left: 20px;
   text-align: center;
+  font-size: 20px;
 }
 
 /*section title that's linked*/
@@ -101,7 +102,7 @@
   margin-left: 300px;
   margin-right: 300px;
 
-  background-color: #ED3642; /*dark pink*/
+  background-color: #8B635C; /*very dark grayish pink*/
   padding: 20px;
   text-align: center;
   text-transform: uppercase;
