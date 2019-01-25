@@ -1,0 +1,24 @@
+.contactcontents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.contactcontents div {
+  background-color: white;
+  color: #ED3642; /*dark pink*/
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.contactcontents h1 {
+  text-transform: uppercase;
+  /*decide text size*/
+  
+}
+
+#top {
+  margin-top: 20px;
+}

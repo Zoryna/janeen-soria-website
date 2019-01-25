@@ -3,13 +3,13 @@
   flex-direction: column;
   margin-left: 300px; /*margins of the image and text*/
   margin-right: 300px;
-  text-transform: uppercase;
-  color: white;
 }
 
 .sticky + .portfoliocontents { /*trying to make sticky header*/
   padding-top: 102px;
 }
+
+/*include id for the divs that just have a section title*/
 
 .pageintro {
   background-color: white;
