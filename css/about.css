@@ -5,10 +5,6 @@
   margin-right: 300px;
 }
 
-.sticky + .aboutcontents { /*trying to make sticky header*/
-  padding-top: 102px;
-}
-
 .profile {
   display: block;
   margin-top: 20px;

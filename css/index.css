@@ -1,6 +1,5 @@
 body {
   background-color: #DAEDDD; /*light gray*/
-  border 0;
   margin: 0px;
   padding: 0px;
   text-decoration: none;
@@ -8,21 +7,18 @@ body {
   overflow: auto;
 }
 
-.navbar { /*make current tab highlighed later*/
+.navbar {
   display:flex;
-  background-color: #083D77; /*dark blue*/
+  flex-direction: column;
   justify-content: space-between;
-  position: sticky;
+  text-align: center;
+  background-color: #083D77; /*dark blue*/
+  margin-right: 85%;
+  height: 100%;
 }
 
 .navbar div {
   margin: 20px;
-}
-
-.sticky { /*trying to make sticky header*/
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 .pictures img {

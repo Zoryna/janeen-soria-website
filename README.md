@@ -8,7 +8,11 @@ I want to have a website that I developed that tells people about myself.
 
 ## Tech
 
-HTML, CSS, and some JavaScript.
+HTML
+
+CSS
+
+JavaScript
 
 ## Getting Started
 
