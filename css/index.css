@@ -8,17 +8,16 @@ body {
 }
 
 .navbar {
-  display:flex;
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
   background-color: #083D77; /*dark blue*/
   margin-right: 85%;
-  height: 100%;
+  height: 100vh;
 }
 
 .navbar div {
   margin: 20px;
+  text-align: center;
 }
 
 .pictures img {
@@ -27,7 +26,6 @@ body {
   opacity: 0.9;
 }
 
-/*might change text colors later*/
 .pictures h1 {
   color: black;
   text-transform: uppercase;

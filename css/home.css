@@ -1,8 +1,7 @@
 .homecontents {
   display: flex;
   flex-direction: column;
-  margin-left: 300px; /*margins of the image and text*/
-  margin-right: 300px;
+  margin-right: 300px; /*margins of the image and text*/
 }
 
 .welcome {
