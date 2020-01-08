@@ -13,18 +13,23 @@ body {
   background-color: #083D77; /*dark blue*/
   margin-right: 85%;
   height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
 }
 
 .navbar div { /*TODO change font attributes*/
   margin: 20px;
-  text-align: center;
 }
 
 .intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 10px;
 }
 
 .intro img {
@@ -34,6 +39,15 @@ body {
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
+  margin-left: 10%;
+}
+
+.intro h1 {
+  font-size: 20px;
+}
+
+.intro p {
+  font size: 15px;
 }
 
 .pictures img {
