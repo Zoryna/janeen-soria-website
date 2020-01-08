@@ -15,9 +15,25 @@ body {
   height: 100vh;
 }
 
-.navbar div {
+.navbar div { /*TODO change font attributes*/
   margin: 20px;
   text-align: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.intro img {
+  height: 100%;
+  width: 83%;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
 }
 
 .pictures img {
