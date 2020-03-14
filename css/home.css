@@ -1,19 +1,19 @@
 .homecontents {
   display: flex;
   flex-direction: column;
-  margin-right: 300px; /*margins of the image and text*/
-  margin-left: 25%
+  margin-right: 20%; /*margins of text*/
+  margin-left: 25%;
+}
+
+.homecontents h1 {
+  color: black;
+  font-size: 30px;
+  text-align: left;
 }
 
 .welcome {
   display: block;
-  margin-top: 20px;
   margin-bottom: 10px;
   padding: 20px;
   background-color: white;
-}
-
-.welcome h1 {
-  color: #ED3642; /*dark pink */
-  font-size: 20px;
 }
