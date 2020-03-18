@@ -49,7 +49,7 @@ body {
 }
 
 .intro p {
-  font size: 15px;
+  font-size: 15px;
 }
 
 .pictures img {
@@ -57,6 +57,26 @@ body {
   width: 100%;
   opacity: 0.9;
   margin-top: 5%;
-  margin-left: 25%
   margin-right: 20%;
+}
+
+.information {
+  display: flex;
+  position: fixed;
+  /*overflow-x: hidden; */
+  flex-direction: column;
+  background-color: #083D77; /*dark blue*/
+  margin-left: 85%;
+  text-align: center;
+  color: white;
+}
+
+.information p {
+  margin: 15px;
+  font-size: 15px;
+}
+
+.information a {
+  text-decoration: none;
+  color: white;
 }

@@ -17,7 +17,7 @@
 }
 
 input {
-  border-radius: 10px; /*make input boxes more round*/
+  border-radius: 10px; /*makes input boxes more round*/
   border: 1px solid black;
   padding: 10px;
   width: 30%;
@@ -29,9 +29,9 @@ input {
   word-wrap: break-word;
 }
 
-button { /*TODO fix positioning*/
-  justify-content: flex-end;
+button {
   width: 20%;
+  margin-left:82.65%; /*TODO modify*/
   padding: 10px;
   margin-bottom: 5%;
   float:right;
