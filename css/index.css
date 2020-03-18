@@ -10,7 +10,6 @@ body {
 .navbar {
   display: flex;
   position: fixed;
-  /*overflow-x: hidden; */
   flex-direction: column;
   background-color: #083D77; /*dark blue*/
   margin-right: 85%;
