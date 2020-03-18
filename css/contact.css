@@ -1,27 +1,46 @@
 .contactcontents {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-left: 300px;
-  margin-right: 300px;
-}
-
-.contactcontents div {
-  background-color: white;
-  color: #ED3642; /*dark pink*/
-  margin-bottom: 10px;
-  padding: 20px;
+  margin-right: 20%; /*margins of text*/
+  margin-left: 25%;
 }
 
 .contactcontents h1 {
-  text-transform: uppercase;
-  font-size: 25px;
+  color: black;
+  font-size: 30px;
+  text-align: left;
 }
 
-.contactcontents p {
+.contactcontents h2 {
+  color: #505050; /*gray*/
+  text-align: left;
+}
+
+input {
+  border-radius: 10px; /*make input boxes more round*/
+  border: 1px solid black;
+  padding: 10px;
+  width: 30%;
+}
+
+#messText {
+  width:100%;
+  height:100px; /*TODO modify*/
+  word-wrap: break-word;
+}
+
+button { /*TODO fix positioning*/
+  justify-content: flex-end;
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 5%;
+  float:right;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #2A4670; /*dark blue*/
   font-size: 20px;
-}
-
-#top {
-  margin-top: 20px;
+  font-family: inherit;
+  cursor:pointer;
+  font-size: 15px;
 }

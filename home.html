@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/contact.css">
   <script src="js/index.js"></script> <!--TODO fix js?-->
 </head>
 
@@ -33,16 +34,19 @@
     </div>
     <h1>Welcome!</h1>
     <div class="welcome">
-      <p> <!--TODO update-->
-        Hello, I'm Janeen Soria and this is my personal website I created.
+      <p>
+        Hello, I'm Janeen Soria and this is a personal website that I developed.
         I wanted to have a website so people can get an idea on who I am, and because
-        I think it's a bit fun to make a website for yourself.
+        I think it's fun to make a website for yourself.
       </p>
       <p>
-        I am finishing up my Software Engineering degree this semester, and I will graduate
-        with a Software Engineering degree and a Psychology minor. I'm currently applying for
-        jobs and internships, and in the far future I hope to combine computer science and
-        psychology.
+        I graduated in May 2019 with a Bachelor of Science in Software
+        Eningeering and a Psychology minor. I am currently a Girls Who Code club
+        facilitator at a Chicago Public High School. I teach students HTML/CSS,
+        web design, Java, logic, and the development process. I'm also a
+        freelance coding tutor for HTML/CSS, and I am a tutor for students in
+        grades K-12 in Math and Reading. I'm actively applying for jobs, and
+        I hope to combine computer science and psychology in my work.
       </p>
     </div>
   </div>
@@ -51,15 +55,13 @@
     <h1>About Me</h1>
     <div class="aboutme">
       <p> <!--TODO update-->
-        I am a student at Loyola University Chicago, where I major in
-        Software Engineering with a minor in Psychology. I became interested in
-        computer science when I took my first computer science class my senior
-        year of high school. I became interested in learning how things work.
-        I wanted to know what allows a person to interact with a computer.
-        What happens when a person clicks a link? How is a website designed?
-        How is data used? What function is created to organize data?
-        Where does this all happen? I became intrigued by the language computer
-        scientists learn to speak in order to communicate with a computer.
+        I became interested in computer science when I took my first computer
+        science class my senior year of high school. I became interested in
+        learning how things work. I wanted to know what allows a person to
+        interact with a computer. What happens when a person clicks a link?
+        How is a website designed? How is data used? What function is created
+        to organize data? Where does this all happen? I became intrigued by the
+        language computer scientists learn to speak in order to communicate with a computer.
       </p>
       <p>
         I have always been interested in psychology because I grew up reading
@@ -101,7 +103,6 @@
         <h1><a href="https://github.com/Zoryna/events-app" style="text-decoration: none; color : white;">Campfire</a></h1>
       </div>
     </div>
-
     <h2>Back-end</h2>
     <hr> <!--line break-->
     <div class="backend">
@@ -120,8 +121,33 @@
     </div>
   </div>
 
-
-
-
+  <div class="contactcontents">
+    <h1>Contact</h1>
+    <h2>Send an email</h2>
+    <form action=""> <!--TODO improve form and button and submission-->
+      Name:
+      <br>
+      <input type="text" id="nameText" size="35">
+      <br>
+      <br>
+      Email:
+      <br>
+      <input type="text" id="emailText" size="35">
+      <br>
+      <br>
+      Subject:
+      <br>
+      <input type="text" id="subText" size="35">
+      <br>
+      <br>
+      <br>
+      Message:
+      <br>
+      <input type="text" id="messText">
+      <br>
+  </form>
+  <br>
+  <button onclick="submitFunction(); notification();">Send</button>
+  </div>
 </body>
 </html>
