@@ -1,0 +1,46 @@
+.experiencecontents {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20%; /*margins of text*/
+  margin-left: 25%;
+}
+
+.experiencecontents h1 {
+  color: black;
+  font-size: 30px;
+  text-align: left;
+}
+
+.experienceexamples {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20%; /*margins of text*/
+  margin-left: 25%;
+}
+
+.experienceexamples div {
+  color: #2A2D34; /*dark gray*/
+}
+
+.experienceexamples div h1 {
+  font-size: 25px;
+}
+
+.experiencecontents h2 {
+  color: #505050; /*gray*/
+  text-align: left;
+}
+
+hr {
+  border: 0;
+  display:block;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  width: 100%;
+  height: 1px;
+  background-color:#505050; /*gray*/
+}
+
+.skills h1 {
+  font-size: 25px;
+}
