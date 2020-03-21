@@ -14,12 +14,17 @@
 .experienceexamples {
   display: flex;
   flex-direction: row;
-  margin-right: 20%; /*margins of text*/
-  margin-left: 25%;
+  justify-content: space-between;
 }
 
 .experienceexamples div {
-  color: #2A2D34; /*dark gray*/
+  background-color: #2A2D34; /*dark gray*/
+  margin: 5%;
+  padding: 10px;
+}
+
+.experienceexamples h1 {
+  color: white;
 }
 
 .experienceexamples div h1 {
@@ -27,7 +32,7 @@
 }
 
 .experiencecontents h2 {
-  color: #505050; /*gray*/
+  color: black;
   text-align: left;
 }
 
@@ -41,6 +46,18 @@ hr {
   background-color:#505050; /*gray*/
 }
 
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+
 .skills h1 {
-  font-size: 25px;
+  width: 15%;
+  padding:10px;
+  background-color: #008ECC; /*dark sky blue*/
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
