@@ -47,16 +47,36 @@ hr {
 }
 
 .skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   margin-bottom: 10%;
 }
 
-.skills h1 {
+.techskills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.techskills h1 {
   width: 15%;
   padding:10px;
   background-color: #008ECC; /*dark sky blue*/
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.softskills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.softskills h2 {
+  width: 15%;
+  padding:10px;
+  background-color: #636877; /*purple*/
   color: white;
   font-size: 20px;
   text-align: center;
