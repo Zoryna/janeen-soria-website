@@ -51,6 +51,15 @@ body {
   font-size: 15px;
 }
 
+.logos img {
+  margin-top: 47%; /*TODO modify*/
+}
+
+#linkedin {
+  height: 32px;
+  width: 20%;
+}
+
 .pictures img {
   height: 450px;
   width: 100%;
