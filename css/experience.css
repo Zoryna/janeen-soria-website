@@ -66,6 +66,27 @@ hr {
   text-align: center;
 }
 
+/*TODO modify hovers*/
+#javaskill:hover:after {
+  content:' 5000+ lines';
+}
+
+#htmlskill:hover:after {
+  content:' 5000+ lines';
+}
+
+#cssskill:hover:after {
+  content:' 5000+ lines';
+}
+
+#springskill:hover:after {
+  content:' Familiar';
+}
+
+#gitskill:hover:after {
+  content:' 2 years';
+}
+
 .softskills {
   display: flex;
   flex-direction: row;
