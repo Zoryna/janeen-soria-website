@@ -72,19 +72,35 @@ hr {
 }
 
 #htmlskill:hover:after {
-  content:' 5000+ lines';
+  content:' 1000+ lines';
 }
 
 #cssskill:hover:after {
-  content:' 5000+ lines';
-}
-
-#springskill:hover:after {
-  content:' Familiar';
+  content:' 1000+ lines';
 }
 
 #gitskill:hover:after {
   content:' 2 years';
+}
+
+h3 {
+  color:#505050; /*gray*/
+}
+
+.familiar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.familiar h1 {
+  width: 15%;
+  padding:10px;
+  background-color: #008ECC; /*dark sky blue*/
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
 
 .softskills {
