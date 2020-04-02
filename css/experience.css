@@ -14,11 +14,13 @@
 .experienceexamples {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .experienceexamples div {
   background-color: #2A2D34; /*dark gray*/
+  width: 25%;
   margin: 5%;
   padding: 10px;
 }
@@ -29,6 +31,10 @@
 
 .experienceexamples div h1 {
   font-size: 25px;
+}
+
+.experienceexamples div p {
+  color: white;
 }
 
 .experiencecontents h2 {
