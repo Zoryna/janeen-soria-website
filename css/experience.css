@@ -11,6 +11,11 @@
   text-align: left;
 }
 
+.experiencecontents h2 {
+  color: black;
+  text-align: left;
+}
+
 .experienceexamples {
   display: flex;
   flex-direction: row;
@@ -22,24 +27,21 @@
   background-color: #2A2D34; /*dark gray*/
   width: 25%;
   margin: 5%;
-  padding: 10px;
-}
-
-.experienceexamples h1 {
-  color: white;
+  padding: 20px;
 }
 
 .experienceexamples div h1 {
+  color: white;
   font-size: 25px;
+}
+
+.experienceexamples div h2 {
+  color: yellow;
+  font-size: 15px;
 }
 
 .experienceexamples div p {
   color: white;
-}
-
-.experiencecontents h2 {
-  color: black;
-  text-align: left;
 }
 
 hr {
