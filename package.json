@@ -1,0 +1,23 @@
+{
+  "name": "janeen-soria-website",
+  "version": "1.0.0",
+  "description": "Janeen Soria personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zoryna/janeen-soria-website.git"
+  },
+  "author": "Janeen Soria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zoryna/janeen-soria-website/issues"
+  },
+  "homepage": "https://github.com/Zoryna/janeen-soria-website#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  }
+}
