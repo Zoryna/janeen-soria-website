@@ -203,7 +203,7 @@
   <div class="contactcontents">
     <h1 id="Contact">Contact</h1>
     <h2>Send an email</h2>
-    <form action=""> <!--TODO improve form and button and submission-->
+    <form action="mailto: jsoryna@gmail.com" method="post" enctype="text/plain"> <!--TODO improve form and button and submission-->
       Name:
       <br>
       <input type="text" id="nameText" size="35">
@@ -224,9 +224,10 @@
       <br>
       <input type="text" id="messText">
       <br>
+      <input type="submit" value="Submit"> <!--TODO-->
   </form>
   <br>
-  <button onclick="submitFunction(); notification();">Send</button>
+  <!--<button onclick="submitFunction(); notification();">Send</button> <!--TODO-->
   </div>
   <script src="js/index.js"></script> <!--TODO modify JS-->
 </body>
