@@ -173,61 +173,50 @@
     <hr> <!--line break-->
     <div class="frontend">
       <div>
-        <h1><a href="https://github.com/Zoryna/janeen-soria-website" style="text-decoration: none; color : white;">Personal website</a></h1>
+        <h1><a href="https://github.com/Zoryna/janeen-soria-website">Personal website</a></h1>
       </div>
       <div>
-        <h1><a href="https://github.com/Zoryna/mental-health-proposal" style="text-decoration: none; color : white;">Independent Study</a></h1>
+        <h1><a href="https://github.com/Zoryna/mental-health-proposal">Independent Study</a></h1>
       </div>
       <div>
-        <h1><a href="https://github.com/Zoryna/events-app" style="text-decoration: none; color : white;">Campfire</a></h1>
+        <h1><a href="https://github.com/Zoryna/events-app">Campfire</a></h1>
       </div>
     </div>
     <h2>Back-end</h2>
     <hr> <!--line break-->
     <div class="backend">
       <div>
-        <h1><a href="https://github.com/Zoryna/google-books" style="text-decoration: none; color : white;">Google Books</a></h1>
+        <h1><a href="https://github.com/Zoryna/google-books">Google Books</a></h1>
       </div>
       <div>
-        <h1><a href="https://github.com/Zoryna/language-quiz" style="text-decoration: none; color : white;">Language Quiz</a></h1>
+        <h1><a href="https://github.com/Zoryna/language-quiz">Language Quiz</a></h1>
       </div>
       <div>
-        <h1><a href="https://github.com/donatelucas/FacilityManagement" style="text-decoration: none; color : white;">Facility Management</a></h1>
+        <h1><a href="https://github.com/donatelucas/FacilityManagement">Facility Management</a></h1>
       </div>
       <div>
-        <h1><a href="https://github.com/Zoryna/mood-memos" style="text-decoration: none; color : white;">Current Project</a></h1>
+        <h1><a href="https://github.com/Zoryna/mood-memos">Current Project</a></h1>
       </div>
     </div>
   </div>
 
+  <h1 id="Contact">Contact Form</h1>
   <div class="contactcontents">
-    <h1 id="Contact">Contact</h1>
-    <h2>Send an email</h2>
-    <form action="mailto: jsoryna@gmail.com" method="post" enctype="text/plain"> <!--TODO improve form and button and submission-->
-      Name:
-      <br>
-      <input type="text" id="nameText" size="35">
-      <br>
-      <br>
-      Email:
-      <br>
-      <input type="text" id="emailText" size="35">
-      <br>
-      <br>
-      Subject:
-      <br>
-      <input type="text" id="subText" size="35">
-      <br>
-      <br>
-      <br>
-      Message:
-      <br>
-      <input type="text" id="messText">
-      <br>
-      <input type="submit" value="Submit"> <!--TODO-->
-  </form>
-  <br>
-  <!--<button onclick="submitFunction(); notification();">Send</button> <!--TODO-->
+    <form> <!--TODO action-->
+      <label for="fname">Name</label>
+      <input type="text" id="fname" name="fullname">
+
+      <label for="uemail">Email</label>
+      <input type="text" id="uemail" name="useremail">
+
+      <label for="esubject">Subject</label>
+      <input type="text" id="esubject" name="emailsubject">
+
+      <label for="esubject">Message</label>
+      <textarea id="emessage" name="emessage" placeholder="What would you like to know?"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
   </div>
   <script src="js/index.js"></script> <!--TODO modify JS-->
 </body>

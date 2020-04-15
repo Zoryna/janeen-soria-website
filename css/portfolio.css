@@ -26,6 +26,11 @@ hr {
   background-color:#505050; /*gray*/
 }
 
+.portfoliocontents a {
+  text-decoration: none;
+  color: white;
+}
+
 .frontend {
   display: flex;
   flex-direction: row;
