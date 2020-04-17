@@ -1,16 +1,19 @@
-window.onscroll = function()
-{stickyBar()}; //activates when user scrolls
+var button = document.getElementById("btn");
 
-var navbar = document.getElementById("navigation"); //gets the navbar
-var sticky = navbar.offsetTop; //gets the position of the navbar
+window.onscroll = function(){scrollFunction()};
 
-function stickyBar() {
-  if (window.pageYOffset > sticky)
-  {
-    navbar.classList.add("sticky"); //when user has scrolled down, adds sticky
-  }
+/*when 20px from top, button appears*/
+function scrollFunction()
+{
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+    button.style.display ="block";
   else
-  {
-    navbar.classList.remove("sticky"); //when user is back to top, removes sticky
-  }
+    button.style.display = "none";
+}
+
+/*goes to top when button is clicked*/
+function topFunction()
+{
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
