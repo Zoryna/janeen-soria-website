@@ -1,8 +1,11 @@
 var button = document.getElementById("btn");
 
-window.onscroll = function(){scrollFunction()};
+window.onscroll = function()
+{
+  scrollFunction()
+}
 
-/*when 20px from top, button appears*/
+//when 20px from top, button appears that alllows user to go back to top
 function scrollFunction()
 {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
@@ -11,7 +14,7 @@ function scrollFunction()
     button.style.display = "none";
 }
 
-/*goes to top when button is clicked*/
+//goes to top when button is clicked
 function topFunction()
 {
   document.body.scrollTop = 0;

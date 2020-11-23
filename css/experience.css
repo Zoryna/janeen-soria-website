@@ -74,7 +74,7 @@ hr {
   text-align: center;
 }
 
-/*TODO modify hovers*/
+/*TODO modify hovers
 #javaskill:hover:after {
   content:' 5000+ lines';
 }
@@ -89,7 +89,7 @@ hr {
 
 #gitskill:hover:after {
   content:' 2 years';
-}
+} */
 
 h3 {
   color:#505050; /*gray*/
