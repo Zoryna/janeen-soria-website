@@ -16,7 +16,6 @@ document.getElementById("cssskill").addEventListener("mouseleave", showSkill)
 document.getElementById("gitskill").addEventListener("mouseenter", showExperience)
 document.getElementById("gitskill").addEventListener("mouseleave", showSkill)
 
-
 function showExperience()
 {
   document.getElementById("javaskill").innerHTML = "5000+ lines"
